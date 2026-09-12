@@ -1,0 +1,68 @@
+{
+  "App": {
+    "title": "Clúster Innovación y Experiencias Turísticas",
+    "subtitle": "Chignahuapan - Zacatlán, Puebla",
+    "description": "Descubre productos artesanales de nuestra región"
+  },
+  "Home": {
+    "welcome": "Bienvenido",
+    "hero": "Clúster Innovación y Experiencias Turísticas",
+    "subtitle": "Chignahuapan - Zacatlán, Puebla",
+    "description": "Vinculando sectores para fomentar el desarrollo económico, turístico y cultural de la región.",
+    "seeProducts": "Ver Productos",
+    "aboutTitle": "Quiénes Somos",
+    "visionLabel": "Visión",
+    "visionText": "Ser un clúster reconocido a nivel nacional e internacional por vincular a los diferentes sectores para implementar estrategias que fomenten el desarrollo económico, turístico y cultural de la región con servicios de calidad, calidez inclusivos y sustentables.",
+    "missionLabel": "Misión",
+    "missionText": "Elevar la calidad de vida de nuestros habitantes, fortalecer la identidad cultural y natural, y posicionar a Chignahuapan y Zacatlán como destinos turísticos de excelencia.",
+    "actionsLabel": "Acciones",
+    "actionsText": "Estrategias de vinculación entre sectores productivos, turísticos y académicos para el desarrollo regional.",
+    "odsLabel": "ODS",
+    "odsText": "Alineados con los Objetivos de Desarrollo Sostenible para un futuro inclusivo y sustentable.",
+    "featuredProducts": "Nuestros Productos",
+    "featuredProductsDesc": "Descubre los productos artesanales que representan la identidad de nuestra región.",
+    "footerName": "Clúster Innovación y Experiencias Turísticas Chignahuapan-Zacatlán A.C.",
+    "footerLocation": "Chignahuapan - Zacatlán, Puebla, México",
+    "footerCopy": "© 2025 Cluster Innovación. Todos los derechos reservados."
+  },
+  "Products": {
+    "title": "Nuestros Productos",
+    "technicalSheet": "Ficha Técnica",
+    "description": "Descripción",
+    "clusterThanks": "Gracias por apoyar al Clúster Innovación y experiencias turísticas Chignahuapan-Zacatlán A.C.",
+    "wantMoreInfo": "¿Deseas recibir más información?",
+    "emailPlaceholder": "Tu correo electrónico",
+    "submit": "Enviar",
+    "viewQR": "Ver Código QR",
+    "back": "Volver"
+  },
+  "QR": {
+    "title": "Código QR del Producto",
+    "scanInstruction": "Escanea este código con tu teléfono para ver la ficha del producto",
+    "download": "Descargar QR"
+  },
+  "Stats": {
+    "title": "Panel de Estadísticas",
+    "enterPin": "Ingresa el PIN de acceso",
+    "pinPlaceholder": "PIN de 4 dígitos",
+    "access": "Acceder",
+    "totalScans": "Total de Escaneos",
+    "todayScans": "Escaneos Hoy",
+    "topProducts": "Productos Más Escaneados",
+    "scansByDate": "Escaneos por Fecha",
+    "recentScans": "Escaneos Recientes",
+    "collectedEmails": "Correos Recopilados",
+    "product": "Producto",
+    "scans": "Escaneos",
+    "date": "Fecha",
+    "email": "Correo",
+    "invalidPin": "PIN inválido",
+    "logout": "Cerrar Sesión",
+    "productBreakdown": "Desglose por Producto"
+  },
+  "Nav": {
+    "home": "Inicio",
+    "products": "Productos",
+    "stats": "Estadísticas"
+  }
+}

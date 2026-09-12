@@ -1,0 +1,68 @@
+{
+  "App": {
+    "title": "Innovation Cluster & Tourism Experiences",
+    "subtitle": "Chignahuapan - Zacatlán, Puebla",
+    "description": "Discover artisanal products from our region"
+  },
+  "Home": {
+    "welcome": "Welcome",
+    "hero": "Innovation Cluster & Tourism Experiences",
+    "subtitle": "Chignahuapan - Zacatlán, Puebla",
+    "description": "Connecting sectors to foster economic, tourism and cultural development in the region.",
+    "seeProducts": "See Products",
+    "aboutTitle": "About Us",
+    "visionLabel": "Vision",
+    "visionText": "To be a cluster recognized nationally and internationally for linking different sectors to implement strategies that foster the economic, tourism and cultural development of the region with quality, warmth, inclusive and sustainable services.",
+    "missionLabel": "Mission",
+    "missionText": "To improve the quality of life of our inhabitants, strengthen cultural and natural identity, and position Chignahuapan and Zacatlán as tourism destinations of excellence.",
+    "actionsLabel": "Actions",
+    "actionsText": "Strategies for linking productive, tourism and academic sectors for regional development.",
+    "odsLabel": "SDGs",
+    "odsText": "Aligned with the Sustainable Development Goals for an inclusive and sustainable future.",
+    "featuredProducts": "Our Products",
+    "featuredProductsDesc": "Discover the artisanal products that represent the identity of our region.",
+    "footerName": "Innovation Cluster & Tourism Experiences Chignahuapan-Zacatlán A.C.",
+    "footerLocation": "Chignahuapan - Zacatlán, Puebla, Mexico",
+    "footerCopy": "© 2025 Innovation Cluster. All rights reserved."
+  },
+  "Products": {
+    "title": "Our Products",
+    "technicalSheet": "Technical Sheet",
+    "description": "Description",
+    "clusterThanks": "Thank you for supporting the Innovation Cluster & Tourism Experiences Chignahuapan-Zacatlán A.C.",
+    "wantMoreInfo": "Want more information?",
+    "emailPlaceholder": "Your email address",
+    "submit": "Submit",
+    "viewQR": "View QR Code",
+    "back": "Back"
+  },
+  "QR": {
+    "title": "Product QR Code",
+    "scanInstruction": "Scan this code with your phone to view the product details",
+    "download": "Download QR"
+  },
+  "Stats": {
+    "title": "Statistics Dashboard",
+    "enterPin": "Enter access PIN",
+    "pinPlaceholder": "4-digit PIN",
+    "access": "Access",
+    "totalScans": "Total Scans",
+    "todayScans": "Today's Scans",
+    "topProducts": "Most Scanned Products",
+    "scansByDate": "Scans by Date",
+    "recentScans": "Recent Scans",
+    "collectedEmails": "Collected Emails",
+    "product": "Product",
+    "scans": "Scans",
+    "date": "Date",
+    "email": "Email",
+    "invalidPin": "Invalid PIN",
+    "logout": "Log Out",
+    "productBreakdown": "Product Breakdown"
+  },
+  "Nav": {
+    "home": "Home",
+    "products": "Products",
+    "stats": "Statistics"
+  }
+}
