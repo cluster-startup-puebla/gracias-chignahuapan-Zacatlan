@@ -9,7 +9,9 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-surface-dark via-primary/90 to-secondary-green text-white pt-28 pb-20 px-4">
+      <section className="relative bg-cover bg-center bg-no-repeat text-white pt-28 pb-32 px-4" style={{backgroundImage: 'url(/images/bg.jpeg)'}}>
+        <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-black/30"></div>
+        <div className="relative">
         <div className="max-w-4xl mx-auto text-center">
           <img
             src="/images/logo-cluster.png"
@@ -27,6 +29,7 @@ export default function HomePage() {
             {t('seeProducts')}
           </Link>
         </div>
+        </div>
       </section>
 
       {/* Quiénes Somos */}
@@ -35,7 +38,7 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold text-center text-text-main mb-12">
             {t('aboutTitle')}
           </h2>
-          <div className="grid md:grid-cols-2 gap-8 items-start">
+          <div className="grid md:grid-cols-2 gap-8 items-stretch">
             <div className="bg-bg rounded-2xl p-8 border border-border hover:shadow-md transition-shadow">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center">
@@ -92,8 +95,8 @@ export default function HomePage() {
           <p className="text-text-secondary mb-6">Chignahuapan y Zacatlán en el estado de Puebla</p>
           <div className="bg-white rounded-2xl p-6 border border-border shadow-sm inline-block">
             <img
-              src="/svg/Municipios_de_Puebla_(numerado).svg"
-              alt="Mapa de municipios de Puebla"
+              src="/images/zacatlan_mapa.png"
+              alt="Mapa de la región Chignahuapan Zacatlán"
               className="max-w-sm w-full h-auto opacity-80 hover:opacity-100 transition-opacity"
             />
           </div>

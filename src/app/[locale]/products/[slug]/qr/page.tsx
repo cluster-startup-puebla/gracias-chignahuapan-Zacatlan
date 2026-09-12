@@ -3,6 +3,8 @@ import {getProductBySlug, products} from '@/data/products';
 import QRGenerator from '@/components/QRGenerator';
 import {Link} from '@/i18n/navigation';
 
+export const dynamic = 'force-dynamic';
+
 export function generateStaticParams() {
   return products.map((p) => ({slug: p.slug}));
 }

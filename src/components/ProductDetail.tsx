@@ -149,6 +149,15 @@ export default function ProductDetail({product}: {product: Product}) {
           </div>
         </div>
       </div>
+
+      {/* Mapa */}
+      <div className="mt-8 bg-white rounded-2xl shadow-sm overflow-hidden border border-border/50 p-4 max-w-md mx-auto lg:max-w-none">
+        <img
+          src="/images/zacatlan_mapa.png"
+          alt="Mapa de la región Chignahuapan Zacatlán"
+          className="w-full h-auto rounded-xl opacity-80 hover:opacity-100 transition-opacity"
+        />
+      </div>
     </div>
   );
 }

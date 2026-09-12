@@ -38,7 +38,7 @@ export default function Header() {
             className="h-8 w-8 rounded-full bg-white p-0.5"
           />
           <span className={`font-bold text-white transition-all duration-300 ${scrolled ? 'text-sm' : 'text-base'}`}>
-            Cluster Innovación
+            Cluster Chignahuapan Zacatlán
           </span>
         </Link>
 
@@ -61,19 +61,21 @@ export default function Header() {
           <div className="flex items-center gap-0.5 ml-2 bg-white/10 rounded-full px-1 py-0.5">
             <button
               onClick={() => switchLocale('es')}
-              className={`text-xs px-2 py-1 rounded-full transition-all ${
-                pathname?.startsWith('/es') ? 'bg-primary text-white' : 'text-white/70 hover:text-white'
+              className={`flex items-center gap-1 text-xs px-2 py-1 rounded-full transition-all ${
+                pathname?.startsWith('/es') ? 'bg-primary text-white font-medium' : 'text-white/70 hover:text-white'
               }`}
+              title="Español"
             >
-              ES
+              🇲🇽 ES
             </button>
             <button
               onClick={() => switchLocale('en')}
-              className={`text-xs px-2 py-1 rounded-full transition-all ${
-                pathname?.startsWith('/en') ? 'bg-primary text-white' : 'text-white/70 hover:text-white'
+              className={`flex items-center gap-1 text-xs px-2 py-1 rounded-full transition-all ${
+                pathname?.startsWith('/en') ? 'bg-primary text-white font-medium' : 'text-white/70 hover:text-white'
               }`}
+              title="English"
             >
-              EN
+              🇺🇸 EN
             </button>
           </div>
         </nav>
@@ -113,19 +115,21 @@ export default function Header() {
           <div className="flex gap-1 mt-2 pt-2 border-t border-white/10">
             <button
               onClick={() => { switchLocale('es'); setMobileOpen(false); }}
-              className={`flex-1 text-xs py-1.5 rounded-lg transition-all ${
-                pathname?.startsWith('/es') ? 'bg-primary text-white' : 'text-white/70 hover:bg-white/10'
+              className={`flex-1 flex items-center justify-center gap-1 text-xs py-1.5 rounded-lg transition-all ${
+                pathname?.startsWith('/es') ? 'bg-primary text-white font-medium' : 'text-white/70 hover:bg-white/10'
               }`}
+              title="Español"
             >
-              ES
+              🇲🇽 ES
             </button>
             <button
               onClick={() => { switchLocale('en'); setMobileOpen(false); }}
-              className={`flex-1 text-xs py-1.5 rounded-lg transition-all ${
-                pathname?.startsWith('/en') ? 'bg-primary text-white' : 'text-white/70 hover:bg-white/10'
+              className={`flex-1 flex items-center justify-center gap-1 text-xs py-1.5 rounded-lg transition-all ${
+                pathname?.startsWith('/en') ? 'bg-primary text-white font-medium' : 'text-white/70 hover:bg-white/10'
               }`}
+              title="English"
             >
-              EN
+              🇺🇸 EN
             </button>
           </div>
         </div>
