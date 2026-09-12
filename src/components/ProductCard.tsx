@@ -22,11 +22,6 @@ export default function ProductCard({product}: {product: Product}) {
             {t('technicalSheet')}
           </span>
         </div>
-        {product.price && (
-          <span className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-primary text-xs font-bold px-2.5 py-1 rounded-full shadow-sm">
-            {product.price}
-          </span>
-        )}
       </div>
       <div className="p-4">
         <div className="flex items-center gap-2 mb-1">

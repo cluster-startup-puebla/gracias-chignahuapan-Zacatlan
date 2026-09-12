@@ -71,10 +71,6 @@ export default function ProductDetail({product}: {product: Product}) {
               {product.name.es}
             </h1>
 
-            {product.price && (
-              <p className="text-2xl font-bold text-primary mb-4">{product.price}</p>
-            )}
-
             {/* Description */}
             <div className="mb-6">
               <h2 className="text-sm font-semibold text-text-secondary uppercase mb-2 tracking-wide">

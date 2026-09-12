@@ -4,7 +4,6 @@ export interface Product {
   description: {es: string; en: string};
   image: string;
   category: {es: string; en: string};
-  price?: string;
   origin: {es: string; en: string};
 }
 
@@ -21,7 +20,6 @@ export const products: Product[] = [
     },
     image: '/images/Refresco-2-scaled-768x1152.jpg',
     category: {es: 'Bebidas Artesanales', en: 'Artisanal Beverages'},
-    price: '$25 MXN',
     origin: {
       es: 'Chignahuapan, Puebla',
       en: 'Chignahuapan, Puebla',
